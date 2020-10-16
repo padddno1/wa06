@@ -1,0 +1,86 @@
+body { 
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+#wrapper {
+    background-color: teal;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#card{
+    height: 50vh;
+    width: 30vw;
+    background-color:cyan;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 20px 0px;
+    flex-direction: column;
+}
+#card-title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.input-label {
+    font-size: 15px;
+    font-family: 'Courier Prime', monospace;
+    margin-bottom: 5px;
+}
+.input-wrapper {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.input-con input{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#button-wrapper button {
+    background-color:royalblue;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    border-radius: 100px;
+    height: 45px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    font-family:  'Roboto', sans-serif;
+    transition: all 0.3s;
+}
+#button-wrapper button:hover {
+    opacity: 0.7;
+}
+#button-wrapper button:active {
+    opacity: 0.5;
+}
+#error-mess{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}
+#sign-in {
+    text-align: center;
+    text-decoration: none;
+}
